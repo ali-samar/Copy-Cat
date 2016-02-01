@@ -1,0 +1,427 @@
+$blanc: #fff;
+$couleurtexte: #565A5C;
+
+body {
+	margin: 0;
+}
+
+header {
+	flex-direction: column;
+	background-image: url("../images/fondheader.jpg");
+	background-size: cover;
+	background-position: center center;
+	height: 565px;
+	
+	.logo {
+		//justify-content: flex-start;
+	}
+
+	.hote {
+		border: solid;
+		border-color: $blanc;
+		border-radius: 3px;
+		padding: 8px;
+	}
+
+	.menu {
+		float: right;
+		margin: 50px;
+
+		a {
+			color: $blanc;
+			font-size: 20px;
+			text-decoration: none;
+			margin: 5px;
+		}
+
+		.hote:hover {
+			background-color: #565a5c;
+		}
+	}
+
+	.btn-mode-emploi {
+		text-align: center center;
+		height: 40px;
+		width: 155px;
+		background-color: rgba(255, 255, 255, 0.5);
+		border-radius: 3px;
+		margin: auto;
+		padding: 7px 21px;
+	}
+
+	.modeemploi {
+		display: block;
+		margin: auto;
+		padding: 9px 27px;
+		color: $blanc;
+		text-decoration: none;
+		font-size: 16px;
+	}
+	
+	.bas-header {
+		background-color: rgba(0,0,0,0.6);
+		width: 100%;
+		height: 120px;
+		margin-top: 67px;
+	}
+
+	.location {
+		height: 44px;
+		margin-left: 220px;
+		margin-top: 35px;
+	}
+
+	.dates {
+		height: 46px;
+		margin-left: -5px;
+		margin-top: 35px;
+	}
+
+	select {
+		height: 50px;
+		margin-left: -5px;
+		width: 170px;
+		margin-top: 35px;
+		background-color: $blanc;
+	}
+
+	.recherche {
+		height: 50px;
+		width: 170px;
+		margin-left: -5px;
+		background-color: #ff7e82;
+		border-color: #ff7e82;
+		color: $blanc;
+		cursor: pointer;
+	}
+}
+
+.titres{
+	color: $blanc;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.container {
+	background-color: #EDEFED;
+	padding-top: 55px;
+
+	.revenus {
+		background-color: $blanc;
+		display: flex;
+		justify-content: flex-start;
+		width: 745px;
+		height: 300px;
+		margin-left: 380px;
+		margin-top: 0px;
+
+		img {
+			cursor: pointer;
+		}
+
+		.textrevenus {
+			color: $couleurtexte;
+			display: inline-block;
+			width: 190px;
+			margin: auto;
+
+			.titregras {
+				font-weight: bold;
+				font-size: 19px;
+			}
+
+			.btn-revenus {
+				width: 150px;
+				height: 40px;
+				border-radius: 3px;
+				background-color: #007A87;
+				color: $blanc;
+				cursor: pointer;
+			}
+		}
+	}
+
+	#titre {
+		color: $couleurtexte;
+		font-size: 32px;
+	}
+
+	p {
+		color: $couleurtexte;
+	}
+
+	.txt-center {
+		text-align: center;
+	}
+
+	.weekend {
+		display: flex;
+		justify-content: center;
+		width: 1020px;
+		margin: auto;
+
+		.bruxelles, .lille, .londres {
+			width: 330px;
+			height: 320px;
+			font-size: 32px;
+			font-weight: bold;
+			margin: 10px;
+			display: flex;
+  			justify-content: center;
+ 			align-items: center;
+ 			background-position: center center;
+ 			background-size: cover;
+ 			cursor: pointer;
+
+			p{			
+				color: $blanc;
+			}
+		}
+	}
+		
+	.ttes-destinations {
+		width: 310px;
+		height: 50px;
+		background-color: $blanc;
+		border-radius: 3px;
+		cursor: pointer;
+		color: $couleurtexte;
+		border-color: #C4C4C4;
+		text-decoration: none;
+		font-size: 16px;
+		margin: 20px;
+		margin-left: 610px;
+	}
+
+	.img-monde {
+			display: flex;
+ 			flex-wrap: wrap;
+ 			width: 1110px;
+ 			margin: auto;
+
+		.monde {
+			height: 325px;
+			width: 700px;
+			display: flex;
+  			justify-content: center;
+ 			align-items: center;
+ 			margin: 20px;
+ 			background-size: cover;
+			background-position: center bottom;
+			cursor: pointer;
+		}
+
+		.monde1 {
+			height: 320px;
+			width: 330px;
+			display: flex;
+  			justify-content: center;
+ 			align-items: center;
+ 			margin: 20px;
+ 			background-size: cover;
+			background-position: center bottom;	
+			cursor: pointer;		
+		}
+
+		.pays {
+			color: $blanc;
+			font-weight: bold;
+			font-size: 32px;
+		}
+
+		.rep {
+			color: $blanc;
+			font-size: 16px;
+		}
+	}
+
+	.bas-de-page {
+		background-image: url("http://img0.gtsstatic.com/wallpapers/a7797f671e593cc86cccc48ce3ee67bd_large.png" );
+		width: 1520px;
+		height: 500px;
+		text-align: center;
+
+		.grostitre {
+			font-weight: 700;
+			font-size: 60px;
+			color: $blanc;
+			margin-bottom: -10px;
+			padding-top: 140px;
+		}
+
+		.textbas {
+			color: $blanc;
+			font-size: 24px;
+		}
+
+		.icon-video {
+			width: 220px;
+			cursor: pointer;
+		}
+	}
+
+	.title {
+		font-size: 32px;
+		font-weight: bold;
+		text-align: center;
+	}
+	
+	.communaute {
+		width: 1392px;
+		margin: auto;
+		display: flex;
+		align-items: center;
+
+		.imgs {
+			width: 25%;
+			height: 500px;
+			margin: 10px;;
+			padding-bottom: 20px;
+			background-size: cover;
+			background-position: center center;
+
+			p {
+				text-align: center;
+				color: $blanc;
+			}
+
+			.liens {
+				text-decoration: none;
+				color: $blanc;
+				margin-left: 45px;
+			}
+			
+			.titre-communaute {
+				margin-top: 315px;
+				font-size: 24px;
+				font-weight: bold;
+				color: $blanc;
+			}
+		}
+	}
+
+}
+
+footer {
+	background-color: black;
+	max-width: 100%;
+	height: 500px;
+
+	.global {
+		display: flex;
+		padding-top: 30px;
+		flex-direction: row;
+
+		.btns {
+			width: 200px;
+			margin-top: 20px;
+			margin-left: 370px;
+
+			select {
+				background-color: #565A5C;
+				border-radius: 2px;
+				border: none;
+				width: 200px;
+				height: 50px;
+				text-align: center;
+				font-size: 16px;
+				margin-bottom: 10px;
+				color: $blanc;	
+			}
+		}
+
+		.societe {
+			width: 85px;
+			margin-left: 100px;
+
+			p {
+				color: $blanc;
+				font-weight: bold;
+			}
+
+			a {
+			text-decoration: none;
+			color: $blanc;
+			}
+
+			a:hover {
+				color: #565A5C;
+			}
+		}
+
+		.decouvrir {
+			width: 145px;
+			margin-left: 50px;
+
+			p {
+				color: $blanc;
+				font-weight: bold;
+			}
+
+			a {
+			text-decoration: none;
+			color: $blanc;
+			}
+
+			a:hover {
+				color: #565A5C;
+			}
+		}
+
+		.hebergement {
+			width: 150px;
+			margin-left: 50px;
+
+			p {
+				color: $blanc;
+				font-weight: bold;
+			}
+
+			a {
+			text-decoration: none;
+			color: $blanc;
+			}
+
+			a:hover {
+				color: #565A5C;
+			}
+		}
+	}
+
+	hr {
+		border-color: rgba(255,255,255,0.2);
+		width: 940px;
+		margin-top: 50px;
+		margin-bottom: 25px;
+	}
+
+	.reseaux {
+		text-align: center; 
+
+		p {
+			color: $blanc;
+			font-weight: bold;
+			font-size: 16px;
+			margin-bottom: 25px;
+		}
+		
+		ul {
+			display: flex;
+			justify-content: center;
+
+			li {
+				list-style: none;
+				margin: 15px;
+				width: 36px;
+				border: solid #565A5C;
+				border-radius: 100%;
+
+				img {
+					width: 40px;
+					border-radius: 100%
+				}
+			}
+		}
+	}
+	
+}
